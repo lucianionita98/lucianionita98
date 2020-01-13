@@ -1,0 +1,61 @@
+form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 39vw;
+	right: 39vw;
+}
+
+#rainbow{
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 39vw;
+	right: 39vw;
+}
+
+/*body{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	padding: 0;
+	margin: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#gradient{
+	z-index: -1;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	color: #fff;
+	background: linear-gradient(-45deg, grey, red, yellow, orange);
+	background-size: 400% 400%;
+	animation: Gradient 15s ease infinite;
+}
+
+@keyframes Gradient{
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	input, select{
+		width: 120px;
+	}
+}*/
